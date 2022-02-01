@@ -1,0 +1,32 @@
+Whenever we run any javascript code a global execution context is created.
+Whenever a function is called or invoked, an execution context is created for that function.
+
+An execution context consists of two phases:
+1) Memory allocation phase
+2) Code execution phase
+
+Memory allocation phase:
+- In this phase, memory is allocated to all the variables and functions.
+- Initially all the variables are initialized with a value of undefined.
+- All the functions are initialized with the entire function body.
+
+Code execution phase:
+- In this phase, the code is executed line by line.
+- If any function call is encountered while code execution then an execution context for the function is created.
+
+Below is a code snippet for understanding how code execution in JavaScript works.
+
+var a = 10;
+function printName() {
+  console.log("Ram");
+}
+console.log(a);
+printName();
+
+When the above code is executed a global execution context is created which has two phases:
+1. Memory allocation phase
+2. Code execution phase
+
+During memory allocation phase, the variable "a" is assigned a value of undefined and the function "printName" is assigned with the entire function body.
+
+During the code execution phase, the code is executed line by line and variable "a" is assigned a value of "10" then the value of "a" is printed in the console and then the function "printName" is invoked and "Ram" is printed in the console.

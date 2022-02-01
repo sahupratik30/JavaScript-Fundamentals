@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
+  <title>How JavaScript Works</title>
+</head>
+
+<body>
+  <h1 style="font-size: 50px; text-align: center; color: green; text-decoration: underline;">How JavaScript Works?</h1>
+  </h1>
+  <p>Whenever we run any JavaScript code a <b>global execution context</b> is created.<br>
+    Whenever a function is called or invoked, an <b>execution context</b> is created for that function.<br><br>
+    An execution context consists of two phases:<br>
+    1) Memory allocation phase<br>
+    2) Code execution phase<br><br>
+    <b>Memory allocation phase:</b><br>
+    - In this phase, memory is allocated to all the variables and functions.<br>
+    - Initially all the variables are initialized with a value of undefined.<br>
+    - All the functions are initialized with the entire function body.<br><br>
+    <b>Code execution phase:</b><br>
+    - In this phase, the code is executed line by line.<br>
+    - If any function call is encountered while code execution then an execution context for the function is created.
+  </p>
+</body>
+
+</html>
