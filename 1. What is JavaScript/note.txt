@@ -1,0 +1,8 @@
+What is JavaScript?
+
+JavaScript is a synchronous and single-threaded client side scrpting language. But now-a-days we can use JavaScript for server-side(backend) development as well with the help of NodeJS(JavaScript runtime built on top of chrome's V8 engine which helps to run JavaScript outside the browser).
+JavaScript was developed by Brendan Eich in the year 1995.
+JavaScript's initial name was Mocha.
+
+synchronous => Tasks are done one after the other(in order).
+single-threaded => All tasks are performed on a single thread which is the main thread(call stack).
