@@ -10,9 +10,5 @@ In this repository you will find all the core concepts of JavaScript.
 
 ## What next ?
  - Select a topic from the list of topics which to want to learn.
- - Each topic contains an `index.html` file.
- - Run the `index.html` file to read more about the topic.
- - If you want to note down the concepts, you don't have to worry because you will also find a `note.txt` file attached with the topic with all the notes for that particular topic. 
- 
  <br><br>
 **<p align="center">**Please drop a ⭐, if you find this repository helpful**</p>**
