@@ -1,6 +1,6 @@
 /* 
    1. call() is method in JavaScript which is available to all functions in JavaScript.
-   2. It is used to change the context of the "this" keyword inside the function upon which it is called(dynamic binding), irrespective of how the function is being called.
+   2. It is used to change the context of the "this" keyword inside the function upon which it is called(explicit binding), irrespective of how the function is being called.
    3. With the help of call() method we can borrow functionality from one object into another object.
    4. It receives the context of the "this" keyword as the first parameter and the rest of the parameters are a list of comma-separated values which are to be passed to the function as arguments upon which the call() method is being called.
 */
