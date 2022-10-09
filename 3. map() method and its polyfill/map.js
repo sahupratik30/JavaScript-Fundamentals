@@ -1,8 +1,14 @@
 /*
    1. map() in JavaScript is a higher order function which is available to all JavaScript arrays.
    2. It receives a callback as a parameter and performs operation on each element of the array.
-   3. The callback in the map() method receives 3 parameters (current value, current index, and the array itself).
-   4. It does not modify the original array and returns a new array instead.
+   3. It also receives a second parameter which is the "this" value passed to the function to be used as its this value.
+   4. The callback in the map() method receives 3 parameters (current value, current index, and the array itself).
+   5. It does not modify the original array and returns a new array instead.
+*/
+
+/* 
+   Syntax
+   array.map(function(currentValue, index, arr), thisValue)
 */
 
 // Example of map() method

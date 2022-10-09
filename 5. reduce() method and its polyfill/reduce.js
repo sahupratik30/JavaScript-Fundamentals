@@ -8,6 +8,11 @@
    **Note:- If no initial value is provided to the accumulator then the initial value for the accumulator will be the first element of the array.
 */
 
+/* 
+   Syntax
+   array.reduce(function(accumulator, currentValue, currentIndex, arr), initialValue)
+*/
+
 // Example of reduce() function.
 // Suppose we want to find the sum of all the elements in the array.
 let arr = [1, 2, 3, 4, 5];
