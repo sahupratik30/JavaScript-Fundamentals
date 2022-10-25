@@ -17,4 +17,4 @@ function flatten(arr) {
   return result;
 }
 
-console.log(flatten(array));
+console.log(flatten(array)); // [0, 1, 2, 3, 4, 5]
