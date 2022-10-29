@@ -2,13 +2,13 @@ const sum = function (...args1) {
   //spread the arguments in values array
   const values = [...args1];
 
-  //base case
+  //return 0 if no arguments are passed
   if (values.length === 0) {
     return 0;
   } else {
     //create an inner function
-    const temp = function (...args2) {
-      //get the arguments of inner function and merge them in existing values
+    const inner = function (...args2) {
+      //get the arguments of inner function and merge them in existing values array
       values.push(...args2);
 
       //if no arguments are passed return the value
@@ -17,12 +17,12 @@ const sum = function (...args1) {
       }
       //else return the same function again
       else {
-        return temp;
+        return inner;
       }
     };
 
-    //return the function
-    return temp;
+    //return the inner function
+    return inner;
   }
 };
 
